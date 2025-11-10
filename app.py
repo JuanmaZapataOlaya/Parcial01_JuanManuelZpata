@@ -22,7 +22,7 @@ def calcular(numero):
     fact = factorial(numero)
 
     # Determinar si el factorial es par o impar
-    etiqueta = "par" if fact % 2 == 0 else "impar"
+    etiqueta = "par" if numero % 2 == 0 else "impar"
 
     # Construir respuesta JSON
     respuesta = {
